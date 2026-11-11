@@ -3,6 +3,8 @@
 The public index of addons for [SkyRose](https://github.com/ganya002/skyrose)'s SkyStore.
 SkyRose downloads `index.json` and `index.json.sig` over HTTPS and refuses the index unless the
 Ed25519 signature matches a key built into SkyRose. Each version lists its bundle's SHA-256.
+Every `build` raises `serial` (signed with the rest); SkyRose refuses an index with a lower serial
+than one it already saw, so an old signed index cannot be replayed to hide a revocation.
 
     index.json          what SkyRose reads (built from addons/, never edited by hand)
     index.json.sig      base64 Ed25519 signature of index.json

@@ -53,10 +53,13 @@ case "build":
         }
         entries.append(e)
     }
-    let out: [String: Any] = ["schema": 1, "generated": ISO8601DateFormatter().string(from: Date()), "addons": entries]
+    // Anti-replay: SkyRose refuses an index whose serial is lower than one it already saw.
+    let previous = (try? Data(contentsOf: index)).flatMap { try? JSONSerialization.jsonObject(with: $0) as? [String: Any] }
+    let serial = ((previous?["serial"] as? Int) ?? 0) + 1
+    let out: [String: Any] = ["schema": 1, "serial": serial, "generated": ISO8601DateFormatter().string(from: Date()), "addons": entries]
     let data = try JSONSerialization.data(withJSONObject: out, options: [.prettyPrinted, .sortedKeys, .withoutEscapingSlashes])
     try data.write(to: index)
-    print("index.json: \(entries.count) addon(s). Now sign it.")
+    print("index.json: \(entries.count) addon(s), serial \(serial). Now sign it.")
 case "sign":
     guard args.count == 2 else { fail("usage: sign <private-key-file>") }
     guard let data = try? Data(contentsOf: index) else { fail("no index.json (run build)") }
