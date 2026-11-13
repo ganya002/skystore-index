@@ -1,8 +1,44 @@
 {
   "addons" : [
-
+    {
+      "author" : "Gabby",
+      "category" : "Apps",
+      "description" : "Sky floats on your desktop and answers in her own voice. Press Option+Y to talk to her. Get started downloads a chat model, a listening model and her voice in one click, with one live progress bar (real bytes, speed and time left). Everything then runs on this Mac. Or use Anthropic, OpenAI, xAI or Groq with your own key, kept in your login Keychain.",
+      "featured" : true,
+      "icon" : "https://raw.githubusercontent.com/ganya002/skystore-index/main/media/dev.gabby.sky/icon.png",
+      "id" : "dev.gabby.sky",
+      "kind" : "app",
+      "licence" : "All rights reserved",
+      "name" : "Sky",
+      "summary" : "A cheeky desktop companion on Option+Y. Local models with one click, or your own API key.",
+      "versions" : [
+        {
+          "minSkyRose" : "0.6.0",
+          "notes" : "First SkyStore release: one-click local models with live download progress, or your own API key.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-13",
+          "sha256" : "d54ee1c4e5794ff354c9aa79952fe6bd0c86ad9f77855b0e54fdb342f2e814a8",
+          "size" : 1679110,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.0/dev.gabby.sky-0.5.0.skyaddon",
+          "version" : "0.5.0"
+        }
+      ]
+    }
   ],
-  "generated" : "2026-11-11T10:52:39Z",
+  "generated" : "2026-11-13T09:07:27Z",
   "schema" : 1,
-  "serial" : 1
+  "serial" : 2
 }
