@@ -14,6 +14,29 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
+          "notes" : "Voice characters: pick Sky's voice in Model menu > Voice > Character, or make your own. New built-in Demon voice (a vocoder). Her own voice stays the default.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-13",
+          "sha256" : "9e2a900f78a21dadaf546ecf0406bb62c218886fb16b545acd9590e00c16410c",
+          "size" : 2011366,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.3/dev.gabby.sky-0.5.3.skyaddon",
+          "version" : "0.5.3"
+        },
+        {
+          "minSkyRose" : "0.6.0",
           "notes" : "Her voice now works on 16 GB Macs: Sky unloads her chat model before speaking.",
           "permissions" : [
             "network:github.com",
@@ -84,7 +107,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-13T10:23:10Z",
+  "generated" : "2026-11-13T14:01:41Z",
   "schema" : 1,
-  "serial" : 4
+  "serial" : 6
 }

@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.5.3",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.3/dev.gabby.sky-0.5.3.skyaddon",
+      "sha256": "9e2a900f78a21dadaf546ecf0406bb62c218886fb16b545acd9590e00c16410c",
+      "size": 2011366,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-13",
+      "notes": "Voice characters: pick Sky's voice in Model menu > Voice > Character, or make your own. New built-in Demon voice (a vocoder). Her own voice stays the default."
+    },
+    {
       "version": "0.5.2",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.2/dev.gabby.sky-0.5.2.skyaddon",
