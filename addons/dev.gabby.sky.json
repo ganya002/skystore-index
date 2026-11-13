@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.5.2",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.2/dev.gabby.sky-0.5.2.skyaddon",
+      "sha256": "f5091ac309da78f50794d7b4f4a5060658bc14e105d09ea39c959115c39c03c3",
+      "size": 1679820,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-13",
+      "notes": "Her voice now works on 16 GB Macs: Sky unloads her chat model before speaking."
+    },
+    {
       "version": "0.5.1",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.1/dev.gabby.sky-0.5.1.skyaddon",
