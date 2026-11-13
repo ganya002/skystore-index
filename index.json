@@ -14,6 +14,29 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
+          "notes" : "The Model menu can be closed again: × button, Esc or ⌘W.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-13",
+          "sha256" : "9df0849f6484fea0fd93766e7480dbf5a3263a774539c76a6f65232ad454cf3d",
+          "size" : 1679487,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.1/dev.gabby.sky-0.5.1.skyaddon",
+          "version" : "0.5.1"
+        },
+        {
+          "minSkyRose" : "0.6.0",
           "notes" : "First SkyStore release: one-click local models with live download progress, or your own API key.",
           "permissions" : [
             "network:github.com",
@@ -38,7 +61,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-13T09:07:27Z",
+  "generated" : "2026-11-13T10:09:55Z",
   "schema" : 1,
-  "serial" : 2
+  "serial" : 3
 }

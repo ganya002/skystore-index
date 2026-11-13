@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.5.1",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.1/dev.gabby.sky-0.5.1.skyaddon",
+      "sha256": "9df0849f6484fea0fd93766e7480dbf5a3263a774539c76a6f65232ad454cf3d",
+      "size": 1679487,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-13",
+      "notes": "The Model menu can be closed again: \u00d7 button, Esc or \u2318W."
+    },
+    {
       "version": "0.5.0",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.0/dev.gabby.sky-0.5.0.skyaddon",
