@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.5.4",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.4/dev.gabby.sky-0.5.4.skyaddon",
+      "sha256": "b92fbbebe04850105a7a56a7e3db58fbb4a49b5fd3cf219ec9b37f78a2b4b964",
+      "size": 2016303,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-13",
+      "notes": "Hold Control+Option+Y to talk to Sky (speech to text on this Mac). Her voice no longer gets skipped on busy 16 GB Macs, and if she can't speak she tells you why."
+    },
+    {
       "version": "0.5.3",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.3/dev.gabby.sky-0.5.3.skyaddon",
