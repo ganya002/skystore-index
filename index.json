@@ -14,29 +14,6 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
-          "notes" : "Sky feels alive: she bounces with every syllable, glows in her colour as she speaks and thinks, and floats gently when calm. Captions pop in letter by letter and each word keeps her colour while she says it. The text card springs in and fades out. Smooth 120 Hz on ProMotion displays.",
-          "permissions" : [
-            "network:github.com",
-            "network:huggingface.co",
-            "network:pypi.org",
-            "network:files.pythonhosted.org",
-            "network:api.anthropic.com",
-            "network:api.openai.com",
-            "network:api.x.ai",
-            "network:api.groq.com",
-            "microphone",
-            "accessibility",
-            "keychain",
-            "login"
-          ],
-          "released" : "2026-11-16",
-          "sha256" : "d483611a1e3f6fc9ecc52e8026f36050992d50d2bd1de56f117776d6b1e3a6d3",
-          "size" : 2041351,
-          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.6.0/dev.gabby.sky-0.6.0.skyaddon",
-          "version" : "0.6.0"
-        },
-        {
-          "minSkyRose" : "0.6.0",
           "notes" : "Sky's Droplet is livelier: loud syllables overshoot, every mood change gives a small pop, and a halo in her colour follows her voice and thinking. Calm moods float and rock gently; thinking throbs. Captions pop in with a spring, and the word keeps her colour while she says it. The composer and reply cards spring in and fade out.",
           "permissions" : [
             "network:github.com",
@@ -245,7 +222,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-16T12:43:09Z",
+  "generated" : "2026-11-16T12:43:38Z",
   "schema" : 1,
-  "serial" : 12
+  "serial" : 13
 }

@@ -14,29 +14,6 @@
       "version": "0.6.0",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.6.0/dev.gabby.sky-0.6.0.skyaddon",
-      "sha256": "d483611a1e3f6fc9ecc52e8026f36050992d50d2bd1de56f117776d6b1e3a6d3",
-      "size": 2041351,
-      "permissions": [
-        "network:github.com",
-        "network:huggingface.co",
-        "network:pypi.org",
-        "network:files.pythonhosted.org",
-        "network:api.anthropic.com",
-        "network:api.openai.com",
-        "network:api.x.ai",
-        "network:api.groq.com",
-        "microphone",
-        "accessibility",
-        "keychain",
-        "login"
-      ],
-      "released": "2026-11-16",
-      "notes": "Sky feels alive: she bounces with every syllable, glows in her colour as she speaks and thinks, and floats gently when calm. Captions pop in letter by letter and each word keeps her colour while she says it. The text card springs in and fades out. Smooth 120 Hz on ProMotion displays."
-    },
-    {
-      "version": "0.6.0",
-      "minSkyRose": "0.6.0",
-      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.6.0/dev.gabby.sky-0.6.0.skyaddon",
       "sha256": "eeb816048ecf5453992e50fb51b2e7ec0e5760e7622090f8576c16a36580bbbd",
       "size": 2041721,
       "permissions": [
