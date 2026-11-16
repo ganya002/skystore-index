@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.5.6",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.6/dev.gabby.sky-0.5.6.skyaddon",
+      "sha256": "89fdd657186d09716f699ac3dfe5cfd2b567bcfbd506bf78642afb517f389b5b",
+      "size": 2023493,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-16",
+      "notes": "Sky's settings (Model menu) now look and move like SkyRose Settings: sliding tabs, springy cards and buttons, SkyRose-style switches and sliders, a blurred window that fades in and out. Respects Reduce Motion."
+    },
+    {
       "version": "0.5.5",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.5/dev.gabby.sky-0.5.5.skyaddon",
