@@ -14,6 +14,29 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
+          "notes" : "New chat panel on Control+Command+Y: read the conversation, and browse, search, rename and delete older ones in a sidebar that folds away. A backup of your chats is made before the first delete. Personas: switch between Sky, the voices' own personalities and ones you add, each with its own prompt and voice, edited in the panel.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-16",
+          "sha256" : "f4752566f0cd2c5ec9945cd800e00f0f82cd170ea67984e66bd87d2364401464",
+          "size" : 2055963,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.7.0/dev.gabby.sky-0.7.0.skyaddon",
+          "version" : "0.7.0"
+        },
+        {
+          "minSkyRose" : "0.6.0",
           "notes" : "The text box is one slim line that grows as you type. It stays open through the emoji picker, paste, input methods and dictation, and closes on Esc, the summon key or a click elsewhere. Paste, undo, redo and select all work. Enter sends, Shift+Enter makes a new line.",
           "permissions" : [
             "network:github.com",
@@ -245,7 +268,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-16T12:51:52Z",
+  "generated" : "2026-11-16T13:07:49Z",
   "schema" : 1,
-  "serial" : 14
+  "serial" : 15
 }

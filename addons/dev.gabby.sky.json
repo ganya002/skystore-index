@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.7.0",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.7.0/dev.gabby.sky-0.7.0.skyaddon",
+      "sha256": "f4752566f0cd2c5ec9945cd800e00f0f82cd170ea67984e66bd87d2364401464",
+      "size": 2055963,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-16",
+      "notes": "New chat panel on Control+Command+Y: read the conversation, and browse, search, rename and delete older ones in a sidebar that folds away. A backup of your chats is made before the first delete. Personas: switch between Sky, the voices' own personalities and ones you add, each with its own prompt and voice, edited in the panel."
+    },
+    {
       "version": "0.6.1",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.6.1/dev.gabby.sky-0.6.1.skyaddon",
