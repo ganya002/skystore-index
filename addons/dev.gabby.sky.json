@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.6.1",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.6.1/dev.gabby.sky-0.6.1.skyaddon",
+      "sha256": "2faef895277e0eabee9f2d9e9350f6746e1d407532dbf1b7dc374bb9314155e4",
+      "size": 2043642,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-16",
+      "notes": "The text box is one slim line that grows as you type. It stays open through the emoji picker, paste, input methods and dictation, and closes on Esc, the summon key or a click elsewhere. Paste, undo, redo and select all work. Enter sends, Shift+Enter makes a new line."
+    },
+    {
       "version": "0.6.0",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.6.0/dev.gabby.sky-0.6.0.skyaddon",

@@ -14,6 +14,29 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
+          "notes" : "The text box is one slim line that grows as you type. It stays open through the emoji picker, paste, input methods and dictation, and closes on Esc, the summon key or a click elsewhere. Paste, undo, redo and select all work. Enter sends, Shift+Enter makes a new line.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-16",
+          "sha256" : "2faef895277e0eabee9f2d9e9350f6746e1d407532dbf1b7dc374bb9314155e4",
+          "size" : 2043642,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.6.1/dev.gabby.sky-0.6.1.skyaddon",
+          "version" : "0.6.1"
+        },
+        {
+          "minSkyRose" : "0.6.0",
           "notes" : "Sky's Droplet is livelier: loud syllables overshoot, every mood change gives a small pop, and a halo in her colour follows her voice and thinking. Calm moods float and rock gently; thinking throbs. Captions pop in with a spring, and the word keeps her colour while she says it. The composer and reply cards spring in and fade out.",
           "permissions" : [
             "network:github.com",
@@ -222,7 +245,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-16T12:43:38Z",
+  "generated" : "2026-11-16T12:51:52Z",
   "schema" : 1,
-  "serial" : 13
+  "serial" : 14
 }
