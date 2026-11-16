@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.5.7",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.7/dev.gabby.sky-0.5.7.skyaddon",
+      "sha256": "de25aed780385e970a5eeda86e8d6d584345d9e7fa0c7c498ff16fed6ad4f064",
+      "size": 2033528,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-16",
+      "notes": "Sky starts talking much sooner: her voice stays loaded for a minute between replies and she speaks sentence by sentence. New Memory tab in the Model menu. She now notices things about you on her own and keeps short summaries of older chats."
+    },
+    {
       "version": "0.5.6",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.6/dev.gabby.sky-0.5.6.skyaddon",

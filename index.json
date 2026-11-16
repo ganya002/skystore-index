@@ -14,6 +14,29 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
+          "notes" : "Sky starts talking much sooner: her voice stays loaded for a minute between replies and she speaks sentence by sentence. New Memory tab in the Model menu. She now notices things about you on her own and keeps short summaries of older chats.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-16",
+          "sha256" : "de25aed780385e970a5eeda86e8d6d584345d9e7fa0c7c498ff16fed6ad4f064",
+          "size" : 2033528,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.7/dev.gabby.sky-0.5.7.skyaddon",
+          "version" : "0.5.7"
+        },
+        {
+          "minSkyRose" : "0.6.0",
           "notes" : "Sky's settings (Model menu) now look and move like SkyRose Settings: sliding tabs, springy cards and buttons, SkyRose-style switches and sliders, a blurred window that fades in and out. Respects Reduce Motion.",
           "permissions" : [
             "network:github.com",
@@ -176,7 +199,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-16T08:09:18Z",
+  "generated" : "2026-11-16T08:30:24Z",
   "schema" : 1,
-  "serial" : 9
+  "serial" : 10
 }
