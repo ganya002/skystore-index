@@ -14,6 +14,29 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
+          "notes" : "Talk to Sky in the chat panel (Control+Command+Y). Replies show Markdown and code, and appear as they are written with the local model or Groq. Hover a message to copy it, edit and resend yours, regenerate her last answer, or branch into a new conversation. A small dot shows while she thinks.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-16",
+          "sha256" : "872bce2f11cd429bb1288af05048417f167f05aa4e1308dc48ad9e9e20edc046",
+          "size" : 2064487,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.8.0/dev.gabby.sky-0.8.0.skyaddon",
+          "version" : "0.8.0"
+        },
+        {
+          "minSkyRose" : "0.6.0",
           "notes" : "New chat panel on Control+Command+Y: read the conversation, and browse, search, rename and delete older ones in a sidebar that folds away. A backup of your chats is made before the first delete. Personas: switch between Sky, the voices' own personalities and ones you add, each with its own prompt and voice, edited in the panel.",
           "permissions" : [
             "network:github.com",
@@ -268,7 +291,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-16T13:07:49Z",
+  "generated" : "2026-11-16T13:22:35Z",
   "schema" : 1,
-  "serial" : 15
+  "serial" : 16
 }
