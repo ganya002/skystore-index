@@ -14,6 +14,29 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
+          "notes" : "Each voice now has its own personality you can edit (Model menu › Voice). The Demon voice comes with a demon-meets-best-friend personality. Sky remembers twice as much of your chat, and saying \"remember …\" saves a fact.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-16",
+          "sha256" : "ba3d3553fd33b6f0f4449ecaca42b44efdb606694748d65fbdd670b5c968abd4",
+          "size" : 2020340,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.5/dev.gabby.sky-0.5.5.skyaddon",
+          "version" : "0.5.5"
+        },
+        {
+          "minSkyRose" : "0.6.0",
           "notes" : "Hold Control+Option+Y to talk to Sky (speech to text on this Mac). Her voice no longer gets skipped on busy 16 GB Macs, and if she can't speak she tells you why.",
           "permissions" : [
             "network:github.com",
@@ -130,7 +153,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-13T14:15:51Z",
+  "generated" : "2026-11-16T07:53:17Z",
   "schema" : 1,
-  "serial" : 7
+  "serial" : 8
 }

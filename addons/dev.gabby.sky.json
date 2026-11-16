@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.5.5",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.5/dev.gabby.sky-0.5.5.skyaddon",
+      "sha256": "ba3d3553fd33b6f0f4449ecaca42b44efdb606694748d65fbdd670b5c968abd4",
+      "size": 2020340,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-16",
+      "notes": "Each voice now has its own personality you can edit (Model menu \u203a Voice). The Demon voice comes with a demon-meets-best-friend personality. Sky remembers twice as much of your chat, and saying \"remember \u2026\" saves a fact."
+    },
+    {
       "version": "0.5.4",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.4/dev.gabby.sky-0.5.4.skyaddon",
