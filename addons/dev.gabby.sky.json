@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.6.0",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.6.0/dev.gabby.sky-0.6.0.skyaddon",
+      "sha256": "eeb816048ecf5453992e50fb51b2e7ec0e5760e7622090f8576c16a36580bbbd",
+      "size": 2041721,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-16",
+      "notes": "Sky's Droplet is livelier: loud syllables overshoot, every mood change gives a small pop, and a halo in her colour follows her voice and thinking. Calm moods float and rock gently; thinking throbs. Captions pop in with a spring, and the word keeps her colour while she says it. The composer and reply cards spring in and fade out."
+    },
+    {
       "version": "0.5.7",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.5.7/dev.gabby.sky-0.5.7.skyaddon",
