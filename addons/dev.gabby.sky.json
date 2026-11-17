@@ -11,6 +11,29 @@
   "featured": true,
   "versions": [
     {
+      "version": "0.9.0",
+      "minSkyRose": "0.6.0",
+      "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.9.0/dev.gabby.sky-0.9.0.skyaddon",
+      "sha256": "0a2425acaa8f84164e60c07cc905f754bfcaffa8d03123de2bed21873a300996",
+      "size": 2070222,
+      "permissions": [
+        "network:github.com",
+        "network:huggingface.co",
+        "network:pypi.org",
+        "network:files.pythonhosted.org",
+        "network:api.anthropic.com",
+        "network:api.openai.com",
+        "network:api.x.ai",
+        "network:api.groq.com",
+        "microphone",
+        "accessibility",
+        "keychain",
+        "login"
+      ],
+      "released": "2026-11-17",
+      "notes": "Hear any answer again and save its audio from the chat panel, with a small level meter while Sky speaks. Edit what she remembers in place (Model menu, Memory). A tiny status line shows the chat model, voice, speed and free memory: Command+I in the chat panel, off by default. Paste and undo now work in the Model menu's text fields."
+    },
+    {
       "version": "0.8.0",
       "minSkyRose": "0.6.0",
       "url": "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.8.0/dev.gabby.sky-0.8.0.skyaddon",
