@@ -14,6 +14,29 @@
       "versions" : [
         {
           "minSkyRose" : "0.6.0",
+          "notes" : "Voice timing (Model menu, Voice): Stream sentences starts after the first sentence, as before. Full reply first makes the whole reply's audio, then plays it in one go with no gaps between sentences. Each persona can have its own timing on the personas page.",
+          "permissions" : [
+            "network:github.com",
+            "network:huggingface.co",
+            "network:pypi.org",
+            "network:files.pythonhosted.org",
+            "network:api.anthropic.com",
+            "network:api.openai.com",
+            "network:api.x.ai",
+            "network:api.groq.com",
+            "microphone",
+            "accessibility",
+            "keychain",
+            "login"
+          ],
+          "released" : "2026-11-17",
+          "sha256" : "2e13424d3d235d1ac00859006fcddf2ca32dbd89059a23d27793868d3ec87192",
+          "size" : 2072104,
+          "url" : "https://github.com/ganya002/skystore-index/releases/download/dev.gabby.sky-v0.10.0/dev.gabby.sky-0.10.0.skyaddon",
+          "version" : "0.10.0"
+        },
+        {
+          "minSkyRose" : "0.6.0",
           "notes" : "Hear any answer again and save its audio from the chat panel, with a small level meter while Sky speaks. Edit what she remembers in place (Model menu, Memory). A tiny status line shows the chat model, voice, speed and free memory: Command+I in the chat panel, off by default. Paste and undo now work in the Model menu's text fields.",
           "permissions" : [
             "network:github.com",
@@ -314,7 +337,7 @@
       ]
     }
   ],
-  "generated" : "2026-11-17T07:29:35Z",
+  "generated" : "2026-11-17T07:39:01Z",
   "schema" : 1,
-  "serial" : 17
+  "serial" : 18
 }
